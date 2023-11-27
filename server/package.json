@@ -1,0 +1,15 @@
+{
+  "name": "ucdlib-media-utils-server",
+  "version": "0.0.1",
+  "description": "Run media operations via webserver",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "jrmerz@ucdavis.edu",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "uuid": "^9.0.1"
+  }
+}

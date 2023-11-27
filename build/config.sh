@@ -1,0 +1,1 @@
+IMAGE_TAG=gcr.io/ucdlib-pubreg/media-utils:latest
