@@ -3,8 +3,8 @@
 set -e
 
 ROOT_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" >/dev/null 2>&1 && pwd )"
-cd $ROOT_DIR/..
+cd $ROOT_DIR
 
 source ./config.sh
 
-docker pull .
+docker pull ${IMAGE_TAG}
