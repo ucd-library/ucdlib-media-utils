@@ -12,10 +12,10 @@ Assuming you have a local pdf file named `test.pdf` in your current directory, y
 
 ```
 docker run \
-  -w data \
+  -w /data \
   --rm \
   -v $(pwd):/data \
-  ucdlib/ucdlib-media-utils:latest \
+  gcr.io/ucdlib-pubreg/media-utils:latest \
   tesseract test.pdf test --dpi 300 -l eng --psm 1 --oem 3 hocr
 ```
 
@@ -26,7 +26,7 @@ docker run \
   -w data \
   --rm \
   -v $(pwd):/data \
-  ucdlib/ucdlib-media-utils:latest \
+  gcr.io/ucdlib-pubreg/media-utils:latest \
   convert test.png -resize 50% test_50.png
 ```
 
