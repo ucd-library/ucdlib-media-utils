@@ -69,4 +69,4 @@ substitutions:
   _CONFIG_PROJECT: ucdlib-media-utils
 
 
-timeout: 1800s
+timeout: 3200s
