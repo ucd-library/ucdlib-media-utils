@@ -3,8 +3,11 @@
 This is a collection of scripts and utilities for working with media files in the UCD Library.  Currently the following applications are bundled:
 
   - tesseract: OCR (Optical Character Recognition) for PDFs/Images
+    - CLI docs: https://tesseract-ocr.github.io/tessdoc/Command-Line-Usage.html
   - ffmpeg: Video/Audio transcoding
+    - CLI docs: https://ffmpeg.org/ffmpeg.html
   - imagemagick: Image manipulation
+    - Convert CLI docus: https://imagemagick.org/script/convert.php 
 
 # Local Usage
 
