@@ -33,6 +33,10 @@ docker run \
   convert test.png -resize 50% test_50.png
 ```
 
+# Examples
+
+Checkout the [dams-examples.md](dams-examples.md) file for some examples of how this container is used with the DAMS.
+
 # Server 
 
 TODO
