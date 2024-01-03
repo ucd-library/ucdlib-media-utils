@@ -12,6 +12,7 @@ RUN apt-get update && apt-get install -y \
   gcc \
 	g++ \
 	git \
+  ghostscript \
   imagemagick \
 	libcairo2-dev \
 	libicu-dev \
