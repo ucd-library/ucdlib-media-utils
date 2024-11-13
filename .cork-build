@@ -1,0 +1,12 @@
+{
+  "registry" : "gcr.io/ucdlib-pubreg",
+
+  "images" : {
+    "media-utils" : {
+      "contextPath" : ".",
+      "options" : {
+        "build-arg": ["NODE_VERSION=20"]
+      }
+    }
+  }
+}
